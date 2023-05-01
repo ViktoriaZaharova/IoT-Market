@@ -1,4 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 footer {
   background: #E8EAEF;
   padding: 66px 0 15px;
+}
+footer .box-text {
+  margin: 20px 0 30px;
+}
+
+.form-subscribe {
+  position: relative;
+  max-width: 255px;
+  width: 100%;
+}
+.form-subscribe label {
+  margin: 0;
+}
+.form-subscribe button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  right: 12px;
+  fill: #7F8495;
+  width: 15px;
+  height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bottom {
+  width: 100%;
+  padding: 11px 0 0;
+  margin: 35px 0 0;
+  border-top: 1px solid rgba(204, 210, 222, 0.81);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu-documents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #707686;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-documents li {
+  margin: 0 10px 0 0;
+}
+.menu-documents li:last-child {
+  margin: 0;
+}
+.menu-documents li a {
+  color: #707686;
+}
+.menu-documents li a:hover {
+  color: #589195;
+}
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 30px 0 0;
+}
+.social-list li {
+  margin: 0 19px 0 0;
+}
+.social-list li:last-child {
+  margin: 0;
+}
+.social-list li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  fill: #7F8495;
+  width: 20px;
+  height: 17px;
+}
+.social-list li a:hover {
+  fill: #1B2858;
+}
+
+.footer-box {
+  color: #6E7489;
+  font-weight: 300;
+}
+.footer-box h3 {
+  margin: 0 0 18px;
+  color: #34394C;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-box-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #6E7489;
+}
+.footer-box-item:hover {
+  color: #589195;
+}
+.footer-box-item__text {
+  max-width: 185px;
+}
+.footer-box-item__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 14px 0 0;
+  width: 13px;
+  height: 16px;
+  fill: #589195;
+}
+.footer-box-item__icon:hover {
+  color: #1B2858;
+}
+
+.mail-link {
+  font-size: 18px;
+}
+
+.footer-menu li {
+  margin: 0 0 10px;
+}
+.footer-menu li:last-child {
+  margin: 0;
+}
+.footer-menu li a {
+  color: #6E7489;
+}
+.footer-menu li a:hover {
+  color: #589195;
+}
+
+.category-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.category-list li {
+  width: 50%;
 }

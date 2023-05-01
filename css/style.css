@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -85,29 +86,30 @@ input, textarea, select {
   padding: 0 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Work Sans", sans-serif;
   border: none;
-  border-radius: 10px;
+  border-radius: 3px;
   width: 100%;
-  height: 54px;
-  background: transparent;
-  color: #000;
-  font-size: 15px;
+  height: 44px;
+  background: #fff;
+  color: #AEB0B8;
+  font-size: 14px;
+  font-weight: 300;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder {
-  color: #595959;
+  color: #AEB0B8;
 }
 input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {
-  color: #595959;
+  color: #AEB0B8;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder {
-  color: #595959;
+  color: #AEB0B8;
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder, select::-ms-input-placeholder {
-  color: #595959;
+  color: #AEB0B8;
 }
 input::placeholder, textarea::placeholder, select::placeholder {
-  color: #595959;
+  color: #AEB0B8;
 }
 input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:focus {
   outline: none;
