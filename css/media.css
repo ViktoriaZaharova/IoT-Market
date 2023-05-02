@@ -92,6 +92,16 @@
   footer {
     padding: 50px 0 15px;
   }
+  .sidebar-blog {
+    margin: 0 0 30px;
+  }
+  .form-search {
+    margin: 0 0 30px;
+  }
+  .page-blog {
+    padding: 140px 0 0;
+    margin: 0 0 70px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -101,10 +111,12 @@
     top: 0;
     height: 100%;
     width: 100%;
-    max-width: 300px;
+    max-width: 260px;
     padding: 30px;
     background: #fff;
     display: none;
+    -webkit-box-shadow: 0 0 10px rgba(88, 145, 149, 0.7);
+            box-shadow: 0 0 10px rgba(88, 145, 149, 0.7);
   }
   .nav-menu__close {
     display: block;
@@ -238,6 +250,26 @@
   }
   .copyright {
     text-align: center;
+  }
+  .about-box {
+    margin: 30px 0 0;
+  }
+  .about-box h3 {
+    font-size: 22px;
+    margin: 0 0 15px;
+  }
+  .nav-breadcrumb {
+    margin: 0 0 30px;
+  }
+  .page {
+    padding: 100px 0 0;
+  }
+  .page-about {
+    margin: 0 0 70px;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 auto 20px;
   }
 }
 @media only screen and (max-width: 480px) {

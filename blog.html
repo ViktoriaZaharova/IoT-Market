@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IoT Market</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jQuery.countdownTimer.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex flex-wrap align-items-center">
+					<a href="#" class="logo">
+						<img src="img/logo-icon.svg" alt="">
+						<span class="logo-text">IoT Market</span>
+					</a>
+
+					<nav class="nav-menu">
+						<div class="nav-menu__close"></div>
+						<ul class="menu my-ul">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Каталог
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">Электросчётчики</a></li>
+									<li><a class="dropdown-item" href="#">Водосчётчики</a></li>
+									<li><a class="dropdown-item" href="#">Газосчётчики</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">О нас</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Доставка</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#footer">Контакты</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Опт</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="search-wrapper">
+						<a href="#" class="btn-search btn-link">
+							<svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#search"></use>
+							</svg>
+						</a>
+					</div>
+
+					<a href="#" class="btn-user btn-link">
+						<svg class="svg-icon">
+							<use xlink:href="img/sprite.svg#user"></use>
+						</svg>
+					</a>
+
+					<a href="basket.html" class="btn-basket btn-link">
+						<svg class="svg-icon">
+							<use xlink:href="img/sprite.svg#basket"></use>
+						</svg>
+						<span class="btn-basket__val">4</span>
+					</a>
+
+					<div class="btn-burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="page page-blog">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-12">
+					<h1>Блог</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-lg-3">
+					<div class="sidebar-blog">
+						<form method="post" class="form-search">
+							<label>
+								<input type="text" placeholder="Поиск..." name="search">
+							</label>
+							<button type="submit"><img src="img/search.svg" alt=""></button>
+						</form>
+
+						<div class="sidebar-blog-box">
+							<h3>Категории</h3>
+							<ul class="footer-menu my-ul">
+								<li><a href="#">Fashion</a></li>
+								<li><a href="#">Style</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Season</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-9">
+					<div class="row">
+						<div class="col-12 col-sm-6 mb-50">
+							<div class="blog-card">
+								<a href="article.html" class="blog-card__image"><img src="img/blog1.jpg" alt=""></a>
+								<div class="blog-card__body">
+									<div class="date">October 8, 2020</div>
+									<a href="article.html" class="blog-card__title">Top Trends From Spring</a>
+									<div class="box-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. faucibus augue, a maximus elit ex vitae
+											libero...</p>
+									</div>
+									<a href="article.html" class="link-page color-accent">Read More</a>
+								</div>
+							</div>
+						</div>
+<div class="col-12 col-sm-6 mb-50">
+	<div class="blog-card">
+		<a href="article.html" class="blog-card__image"><img src="img/blog2.jpg" alt=""></a>
+		<div class="blog-card__body">
+			<div class="date">October 8, 2020</div>
+			<a href="article.html" class="blog-card__title">Top Trends From Spring</a>
+			<div class="box-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. faucibus augue, a maximus elit ex vitae
+					libero...</p>
+			</div>
+			<a href="article.html" class="link-page color-accent">Read More</a>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 mb-50">
+	<div class="blog-card">
+		<a href="article.html" class="blog-card__image"><img src="img/blog3.jpg" alt=""></a>
+		<div class="blog-card__body">
+			<div class="date">October 8, 2020</div>
+			<a href="article.html" class="blog-card__title">Top Trends From Spring</a>
+			<div class="box-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. faucibus augue, a maximus elit ex vitae
+					libero...</p>
+			</div>
+			<a href="article.html" class="link-page color-accent">Read More</a>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 mb-50">
+	<div class="blog-card">
+		<a href="article.html" class="blog-card__image"><img src="img/blog4.jpg" alt=""></a>
+		<div class="blog-card__body">
+			<div class="date">October 8, 2020</div>
+			<a href="article.html" class="blog-card__title">Top Trends From Spring</a>
+			<div class="box-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. faucibus augue, a maximus elit ex vitae
+					libero...</p>
+			</div>
+			<a href="article.html" class="link-page color-accent">Read More</a>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 mb-50">
+	<div class="blog-card">
+		<a href="article.html" class="blog-card__image"><img src="img/blog3.jpg" alt=""></a>
+		<div class="blog-card__body">
+			<div class="date">October 8, 2020</div>
+			<a href="article.html" class="blog-card__title">Top Trends From Spring</a>
+			<div class="box-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. faucibus augue, a maximus elit ex vitae
+					libero...</p>
+			</div>
+			<a href="article.html" class="link-page color-accent">Read More</a>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 mb-50">
+	<div class="blog-card">
+		<a href="article.html" class="blog-card__image"><img src="img/blog4.jpg" alt=""></a>
+		<div class="blog-card__body">
+			<div class="date">October 8, 2020</div>
+			<a href="article.html" class="blog-card__title">Top Trends From Spring</a>
+			<div class="box-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. faucibus augue, a maximus elit ex vitae
+					libero...</p>
+			</div>
+			<a href="article.html" class="link-page color-accent">Read More</a>
+		</div>
+	</div>
+</div>
+
+						<div class="col-12">
+							<nav class="nav-pagination">
+								<ul class="pagination">
+									<li class="page-item"><a class="page-link active" href="#">1</a></li>
+									<li class="page-item"><a class="page-link" href="#">2</a></li>
+									<li class="page-item">
+										<a class="page-link" href="#" aria-label="Next">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#arrow-right"></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-top">
+						<div class="row">
+							<div class="col-12 col-lg-4">
+								<a href="#" class="logo">
+									<img src="img/logo-icon-footer.svg" alt="">
+									<span class="logo-text">IoT Market</span>
+								</a>
+								<div class="box-text">
+									<p>Quis nostrud exercitatin ullamc boris nisi ut aliquip ex ea commodo conse.
+									</p>
+								</div>
+
+								<form method="post" class="form-subscribe">
+									<label><input type="text" placeholder="Your email here" name="mail"></label>
+									<button>
+										<svg class="svg-icon">
+											<use xlink:href="img/sprite.svg#mail"></use>
+										</svg>
+									</button>
+								</form>
+							</div>
+
+							<div class="col-12 col-sm-4 col-lg-3">
+								<div class="footer-box">
+									<h3>Адрес</h3>
+									<div class="footer-box-item">
+										<div class="footer-box-item__icon"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#location"></use>
+											</svg>
+										</div>
+										<div class="footer-box-item__text">20, Awesome Road, New York, Usa 4D BS3</div>
+									</div>
+									<a href="tel:+1234567890" class="footer-box-item">
+										<span class="footer-box-item__icon"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#phone"></use>
+											</svg>
+										</span>
+										<span class="footer-box-item__text">+123 456 7890</span>
+									</a>
+									<a href="mailto:hello@ulina.com" class="footer-box-item mail-link">
+										<span class="footer-box-item__icon"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#mail"></use>
+											</svg>
+										</span>
+										<span class="footer-box-item__text">hello@ulina.com</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 col-sm-4 col-lg-2">
+								<div class="footer-box">
+									<h3>Полезные ссылки</h3>
+									<ul class="footer-menu my-ul">
+										<li><a href="#">Shop Cupon</a></li>
+										<li><a href="about.html">About Us</a></li>
+										<li><a href="#">Carrer</a></li>
+										<li><a href="#">Supports</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 col-lg-3">
+								<div class="footer-box">
+									<h3>Категории</h3>
+									<ul class="category-list footer-menu my-ul">
+										<li><a href="#">Men</a></li>
+										<li><a href="#">women</a></li>
+										<li><a href="#">Kids</a></li>
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Bags</a></li>
+										<li><a href="#">Jewellary</a></li>
+										<li><a href="#">Cloths</a></li>
+										<li><a href="#">Beauty Item</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<ul class="social-list my-ul">
+									<li><a href="#"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#fb"></use>
+											</svg></a></li>
+									<li><a href="#"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#instagram"></use>
+											</svg></a></li>
+									<li><a href="#"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#twitter"></use>
+											</svg></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer-bottom">
+						<div class="row align-items-center">
+							<div class="col-12 col-sm-6">
+								<div class="copyright">© IoT Market 2022</div>
+							</div>
+							<div class="col-12 col-sm-6">
+								<ul class="menu-documents my-ul">
+									<li><a href="#" target="_blank">Privacy policy</a></li>
+									<li><a href="#" target="_blank">Cookies</a></li>
+									<li><a href="#" target="_blank">Terms of service</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jQuery.countdownTimer.js"></script>
+	<!-- <script src="js/jQuery.countdownTimer-ru.js"></script> -->
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

@@ -141,7 +141,6 @@
 		font-weight: normal
 		font-family: $font2
 
-
 .price-wrapper
 	display: flex
 	align-items: end
@@ -234,7 +233,7 @@
 	.nav-link
 		padding: 0
 		border: none
-		border-radius: 0				
+		border-radius: 0
 		color: #AFB4C4
 		font-weight: 300
 		font-size: 18px
@@ -275,7 +274,7 @@
 		font-size: 14px
 	.btn
 		margin: 20px 0 0
-		padding: 5.5px 20px		
+		padding: 5.5px 20px
 	&__image
 		position: relative
 		z-index: 1
@@ -293,3 +292,106 @@
 			width: 475px
 			height: 475px
 			z-index: -1
+
+// about page 
+.page-about
+	margin: 0 0 100px
+	.subtitle
+		margin: 0 auto 20px
+
+.about-box
+	margin: 50px 0 0
+	h3
+		width: 100%
+		margin: 0 0 30px
+		font-size: 26px
+
+.about-image
+	margin: 0 auto 37px
+	@include d-flex
+	img
+		border-radius: 8px
+
+// page-blog
+.page-blog
+	padding: 220px 0 0
+	margin: 0 0 180px
+
+.form-search
+	width: 100%
+	margin: 0 0 62px
+	position: relative
+	label
+		margin: 0
+	input
+		padding: 0 0 8px
+		border-bottom: 1px solid #D8D8D8
+		border-radius: 0
+		height: 35px
+		color: #000
+		font-weight: 400
+		font-size: 16px
+		font-family: $default-font
+		&::placeholder
+			color: #707070
+	button
+		background: transparent
+		padding: 0
+		top: 50%
+		right: 0
+		transform: translate(0,-50%)
+		position: absolute
+		width: 19px
+		height: 19px
+		@include d-flex
+
+.sidebar-blog-box
+	width: 100%
+	h3
+		width: 100%
+		margin: 0 0 22px
+		text-transform: capitalize
+		font-size: 20px
+		font-weight: 500
+		color: #000000
+
+.blog-card
+	width: 100%
+	height: 100%
+	&__image
+		@include d-flex
+		height: 300px
+		width: 100%
+		img
+			object-fit: cover
+			width: 100%
+			height: 100%
+			border-radius: 8px
+	&__body
+		width: 100%
+		padding: 22px 0 0
+	&__title
+		margin: 10px 0 14px
+		color: #000000
+		font-size: 20px
+		&:hover
+			color: $accent
+	.date
+		color: #707070
+		font-size: 14px
+	.box-text
+		font-size: 16px
+		line-height: 27px
+		overflow: hidden
+		text-overflow: ellipsis
+		display: -moz-box
+		display: -webkit-box
+		line-clamp: 2
+		box-orient: vertical
+		-moz-box-orient: vertical
+		-webkit-line-clamp: 2
+		-webkit-box-orient: vertical
+
+.link-page
+	margin: 24px 0 0
+	font-weight: bold		
