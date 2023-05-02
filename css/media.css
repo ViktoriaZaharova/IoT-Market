@@ -98,9 +98,21 @@
   .form-search {
     margin: 0 0 30px;
   }
-  .page-blog {
+  .page-blog, .page-article {
     padding: 140px 0 0;
     margin: 0 0 70px;
+  }
+  .page-article h1 {
+    margin: 0 auto 24px;
+  }
+  .page-article__footer {
+    margin: 30px 0 0;
+  }
+  .article-image {
+    margin: 0 auto 30px;
+  }
+  .mb-50 {
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -167,6 +179,13 @@
   }
   .category-card__title {
     font-size: 18px;
+  }
+  .page-article__footer-item {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .page-article__footer-item:last-child {
+    margin: 0;
   }
 }
 @media only screen and (max-width: 576px) {
