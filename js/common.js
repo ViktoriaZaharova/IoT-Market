@@ -15,3 +15,11 @@ $(".countdown-time1").countdowntimer({
 	displayFormat: "DHMS",
 	// currentTime: true,
 });
+
+$('.btn-burger').click(function () {
+	$('.nav-menu').fadeToggle();
+});
+
+$('.nav-menu__close').click(function () {
+	$('.nav-menu').fadeOut();
+});

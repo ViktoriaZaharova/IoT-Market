@@ -190,3 +190,8 @@ footer .box-text {
 .category-list li {
   width: 50%;
 }
+
+.copyright {
+  font-size: 18px;
+  font-weight: 500;
+}
