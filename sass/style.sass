@@ -133,21 +133,21 @@ button, .btn
 	.btn
 		margin: 0 5px 0 0
 		&:last-child
-			margin: 0	
+			margin: 0
 
 .btn-accent
 	background: $accent
 	color: #fff
 	&:hover
 		background: $blue
-		color: #fff	
+		color: #fff
 
 .btn-border-accent
 	border: 1px solid $accent
 	color: #589195
 	&:hover
 		background: $accent
-		color: #fff		
+		color: #fff
 
 .svg-icon
 	display: flex
@@ -209,11 +209,11 @@ ul, ol
 		&.slick-active
 			background: #589195
 			&::before
-				opacity: 1	
+				opacity: 1
 		&:last-child
 			margin: 0
 		button
-			display: none	
+			display: none
 
 .container
 	padding: 0 10px
@@ -238,13 +238,13 @@ ul, ol
 	line-height: 28px
 
 .text
-	line-height: 27px	
+	line-height: 27px
 	p
 		margin: 0 0 20px
 		&:last-child
 			margin: 0
 	ul
-		margin: 20px 0 0		
+		margin: 20px 0 0
 
 .h1
 	font-size: 50px
@@ -255,35 +255,35 @@ h1
 	width: 100%
 	font-size: 32px
 	font-weight: 500
-	margin: 0 auto 24px	
+	margin: 0 auto 24px
 
 h2
 	width: 100%
 	font-size: 42px
 	font-weight: 500
-	color: #34394C	
+	color: #34394C
 
 .h3
 	color: #707686
 	font-size: 18px
 	font-weight: 300
 	line-height: 28px
-	margin: 5px 0 0	
+	margin: 5px 0 0
 
 .subtitle
-	font-size: 20px	
+	font-size: 20px
 
 .mb-20
-	margin-bottom: 20px	
+	margin-bottom: 20px
 
 .mb-30
-	margin-bottom: 30px		
+	margin-bottom: 30px
 
 .mb-40
-	margin-bottom: 40px	
+	margin-bottom: 40px
 
 .mb-50
-	margin-bottom: 50px	
+	margin-bottom: 50px
 
 .m-100
 	margin: 100px 0
@@ -308,7 +308,7 @@ h2
 	color: #212121
 
 .breadcrumb-item+.breadcrumb-item
-	padding: 0					
+	padding: 0
 
 .breadcrumb-item+.breadcrumb-item::before
 	content: ''
@@ -344,28 +344,32 @@ h2
 	.page-item
 		margin: 0 8px 0 0
 		&:last-child
-			margin: 0			
+			margin: 0
 
 .page
-	padding: 144px 0 0	
+	padding: 144px 0 0
 
 .color-accent
-	color: $accent	
+	color: $accent
 
 a.color-accent
 	color: $accent
 	&:hover
-		color: $blue			
+		color: $blue
 
+.list-checkbox
+	li
+		margin: 0 0 5px
+		&:last-child
+			margin: 0
+				
 //checkbox my
-.label-checkbox
+.checkbox
 	position: relative
 	display: flex
-	align-items: flex-start
-	color: rgba(255, 255, 255, 0.5)
+	align-items: center
 	font-size: 14px
-	margin: 15px 0 0
-	line-height: 1.14
+	margin: 0
 
 .inp-check
 	display: none
@@ -373,14 +377,14 @@ a.color-accent
 .checkbox-custom
 	margin: 0 12px 0 0
 	position: relative
-	border-radius: 6px
+	border: 0.8px solid #589195
 	background-color: #fff
-	width: 16px
-	height: 16px
-	min-width: 16px
+	width: 20px
+	height: 20px
+	min-width: 20px
 	cursor: pointer
 
 .inp-check:checked ~ .checkbox-custom
-	background: #fff url("../img/check-black.svg") no-repeat center
+	background: $accent url("../img/check.svg") no-repeat center
 	background-size: 8px
 //checkbox my end

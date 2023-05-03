@@ -498,18 +498,23 @@ a.color-accent:hover {
   color: #1B2858;
 }
 
-.label-checkbox {
+.list-checkbox li {
+  margin: 0 0 5px;
+}
+.list-checkbox li:last-child {
+  margin: 0;
+}
+
+.checkbox {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  color: rgba(255, 255, 255, 0.5);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 14px;
-  margin: 15px 0 0;
-  line-height: 1.14;
+  margin: 0;
 }
 
 .inp-check {
@@ -519,15 +524,15 @@ a.color-accent:hover {
 .checkbox-custom {
   margin: 0 12px 0 0;
   position: relative;
-  border-radius: 6px;
+  border: 0.8px solid #589195;
   background-color: #fff;
-  width: 16px;
-  height: 16px;
-  min-width: 16px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
   cursor: pointer;
 }
 
 .inp-check:checked ~ .checkbox-custom {
-  background: #fff url("../img/check-black.svg") no-repeat center;
+  background: #589195 url("../img/check.svg") no-repeat center;
   background-size: 8px;
 }

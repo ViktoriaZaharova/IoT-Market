@@ -394,8 +394,7 @@
 
 .link-page
 	margin: 24px 0 0
-	font-weight: bold		
-
+	font-weight: bold
 
 // page-article
 .page-article
@@ -411,7 +410,7 @@
 			p
 				margin: 0 0 16px
 				&:last-child
-					margin: 0		
+					margin: 0
 	&__footer
 		width: 100%
 		display: flex
@@ -420,7 +419,7 @@
 		flex-wrap: wrap
 		padding: 0 0 20px
 		margin: 50px 0 0
-		border-bottom: 1px solid #D8D8D8	
+		border-bottom: 1px solid #D8D8D8
 		&-item
 			display: flex
 			align-items: center
@@ -456,4 +455,133 @@
 	margin: 0 auto 50px
 	@include d-flex
 
+// page catalog
+.page-catalog
+	margin: 0 0 140px
+	h1
+		margin: 0 0 50px
 
+.sidebar
+	width: 100%
+	font-size: 14px
+	.btn
+		width: 100%
+		margin: 0 0 13px
+		&:last-child
+			margin: 0
+	h3
+		margin: 0 0 13px
+		padding: 0 0 12px
+		font-weight: 600
+		border-bottom: 0.8px solid #84BABE
+
+.sidebar-close
+	position: absolute
+	width: 20px
+	height: 20px
+	right: 20px
+	top: 20px
+	&::before, &:after
+		content: ''
+		position: absolute
+		left: 0
+		top: 10px
+		width: 100%
+		height: 2px
+		background: $accent
+		cursor: pointer
+	&:before
+		transform: rotate(45deg)
+	&:after
+		transform: rotate(135deg)
+
+.accordion-item
+	border: none
+	border-bottom: 0.8px solid #84BABE
+	border-radius: 0
+	margin: 0 0 12px
+	padding: 0 0 20px
+	&:last-child
+		margin: 0 0 20px
+		border-radius: 0
+	&:first-child
+		border-radius: 0
+
+.accordion-button
+	color: #000000
+	font-size: 14px
+	padding: 0
+	&:after
+		width: 10px
+		height: 18px
+		background: url('../img/accordion-arrow.svg') no-repeat center
+		background-size: 100%
+	&:focus
+		box-shadow: none
+
+.accordion-body
+	padding: 20px 0 0
+
+.accordion-button:not(.collapsed)
+	box-shadow: none
+	color: #000000
+	background: transparent
+	&:after
+		background: url('../img/accordion-arrow.svg') no-repeat center
+		background-size: 100%
+		transform: none
+
+.slider-range
+	margin: 19px 0 13px
+	width: 100%
+	border: none
+	border-radius: 0
+	background: #D8D8D8
+	height: 2px
+	&.ui-widget.ui-widget-content
+		border: none
+	
+.ui-widget-header
+	background: #589195
+	border-radius: 0
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
+	width: 2px
+	height: 12px
+	background: #589195
+	border: none
+	border-radius: 0
+	outline: none
+	box-shadow: none
+
+.ui-slider-horizontal .ui-slider-handle
+	margin-left: 0
+	top: -5px			
+
+.range_val
+	width: 100%
+	display: flex
+	align-items: center
+	justify-content: space-between
+	input
+		width: calc(50% - 28px)
+		border: 0.8px solid #589195
+		border-radius: 0
+		height: 38px
+		padding: 0 8px
+		color: #589195
+		font-family: $default-font
+		font-size: 14px
+		&::placeholder
+			color: #589195
+
+.slider-range-values
+	width: 100%
+	display: flex
+	align-items: center
+	justify-content: space-between
+	color: #707070
+
+.btn-filter
+	margin: 0 0 20px
+	width: 100%	
