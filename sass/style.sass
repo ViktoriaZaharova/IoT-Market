@@ -149,6 +149,17 @@ button, .btn
 		background: $accent
 		color: #fff
 
+.btn-border-black
+	border: 1px solid #000000
+	border-radius: 4px
+	color: #000000
+	font-size: 16px
+	font-weight: bold
+	padding: 13.5px 30px
+	&:hover
+		background: #000
+		color: #fff
+
 .svg-icon
 	display: flex
 	align-items: center
@@ -228,7 +239,7 @@ ul, ol
 	background: #F6F8FA
 
 .page
-	padding: 100px 0 0
+	padding: 140px 0 0
 
 .box-text
 	font-family: $font
@@ -295,6 +306,7 @@ h2
 .breadcrumb
 	font-size: 13px
 	color: #212121
+	margin: 0
 	a
 		color: #212121
 		&:hover
@@ -346,9 +358,6 @@ h2
 		&:last-child
 			margin: 0
 
-.page
-	padding: 144px 0 0
-
 .color-accent
 	color: $accent
 
@@ -357,12 +366,20 @@ a.color-accent
 	&:hover
 		color: $blue
 
+a.color-red
+	color: #CF5555
+	&:hover
+		color: #000
+
+.d-inline
+	display: inline				
+
 .list-checkbox
 	li
 		margin: 0 0 5px
 		&:last-child
 			margin: 0
-				
+
 //checkbox my
 .checkbox
 	position: relative
@@ -388,3 +405,42 @@ a.color-accent
 	background: $accent url("../img/check.svg") no-repeat center
 	background-size: 8px
 //checkbox my end
+
+.label-radio
+	width: 100%
+	display: flex
+	align-items: center
+	cursor: pointer
+	input
+		display: none
+		&:checked
+			~ .radio-custom
+					&::before
+						background: #000
+	&__hidden
+		font-size: 12px
+		line-height: 20px					
+		color: #707070
+		margin: 24px 0 0
+
+.radio-custom
+	width: 16px
+	height: 16px
+	min-width: 16px
+	margin: 0 8px 0 0		
+	border: 2px solid #000
+	border-radius: 50%
+	position: relative
+	&::before
+		content: ''
+		position: absolute
+		left: 50%
+		top: 50%
+		transform: translate(-50%,-50%)
+		width: 6px
+		height: 6px
+		border-radius: 50%
+		transition: .3s ease
+
+		
+		

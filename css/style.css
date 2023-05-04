@@ -200,6 +200,19 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   color: #fff;
 }
 
+.btn-border-black {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 13.5px 30px;
+}
+.btn-border-black:hover {
+  background: #000;
+  color: #fff;
+}
+
 .svg-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,7 +325,7 @@ ul, ol {
 }
 
 .page {
-  padding: 100px 0 0;
+  padding: 140px 0 0;
 }
 
 .box-text {
@@ -396,6 +409,7 @@ h2 {
 .breadcrumb {
   font-size: 13px;
   color: #212121;
+  margin: 0;
 }
 .breadcrumb a {
   color: #212121;
@@ -483,10 +497,6 @@ h2 {
   margin: 0;
 }
 
-.page {
-  padding: 144px 0 0;
-}
-
 .color-accent {
   color: #589195;
 }
@@ -496,6 +506,17 @@ a.color-accent {
 }
 a.color-accent:hover {
   color: #1B2858;
+}
+
+a.color-red {
+  color: #CF5555;
+}
+a.color-red:hover {
+  color: #000;
+}
+
+.d-inline {
+  display: inline;
 }
 
 .list-checkbox li {
@@ -535,4 +556,50 @@ a.color-accent:hover {
 .inp-check:checked ~ .checkbox-custom {
   background: #589195 url("../img/check.svg") no-repeat center;
   background-size: 8px;
+}
+
+.label-radio {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.label-radio input {
+  display: none;
+}
+.label-radio input:checked ~ .radio-custom::before {
+  background: #000;
+}
+.label-radio__hidden {
+  font-size: 12px;
+  line-height: 20px;
+  color: #707070;
+  margin: 24px 0 0;
+}
+
+.radio-custom {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  margin: 0 8px 0 0;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: relative;
+}
+.radio-custom::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }

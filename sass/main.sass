@@ -540,7 +540,7 @@
 	height: 2px
 	&.ui-widget.ui-widget-content
 		border: none
-	
+
 .ui-widget-header
 	background: #589195
 	border-radius: 0
@@ -556,7 +556,7 @@
 
 .ui-slider-horizontal .ui-slider-handle
 	margin-left: 0
-	top: -5px			
+	top: -5px
 
 .range_val
 	width: 100%
@@ -584,4 +584,318 @@
 
 .btn-filter
 	margin: 0 0 20px
-	width: 100%	
+	width: 100%
+
+// page product
+.page-product
+	padding: 140px 0 0
+	margin: 0 0 123px
+	h1
+		font-size: 26px
+		font-weight: normal
+	.price
+		margin: 23px 0 50px
+
+.product-information
+	.text
+		line-height: 27px
+	.text-description
+		font-size: 14px
+		line-height: 20px
+		color: #868686
+	&__footer
+		width: 100%
+		display: flex
+		align-items: center
+		justify-content: space-between
+		flex-wrap: wrap
+		margin: 50px 0
+		.btn
+			width: calc(100% - 102px - 23px)
+
+.amount
+	display: flex
+	align-items: center
+	width: 102px
+	background: #EFEFEF
+	border-radius: 4px
+	padding: 0 16px
+	color: #707070
+	font-size: 16px
+	span
+		@include d-flex
+		cursor: pointer
+	input
+		background: transparent
+		padding: 0
+		text-align: center
+		height: 53px
+		color: #707070
+		font-size: 16px
+		font-weight: normal
+		font-family: $default-font
+		&::placeholder
+			color: #707070
+
+.product-gallery
+	width: 100%
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	&__item
+		@include d-flex
+		height: 550px
+		width: 100%
+		max-width: 500px
+		background: #F7F8FC
+		border-radius: 4px
+		padding: 80px
+		img
+			max-height: 100%
+
+.product-gallery-preview
+	max-width: 120px
+	width: 100%
+	.slide
+		margin: 0 0 21px
+	.product-gallery__item
+		height: 120px
+		padding: 32px 20px
+		cursor: pointer
+
+.product-gallery-max
+	width: calc(100% - 120px)
+	padding: 0 0 0 35px
+
+.progress
+	width: calc(100% - 120px - 35px)
+	max-width: 500px
+	margin: 50px 0 0 155px
+	height: 2px
+	background: #D8D8D8
+	position: relative
+
+.progress-bg
+	position: absolute
+	left: 0
+	top: 0
+	height: 100%
+	background: #707070
+	transition: .3s ease
+
+.nav-tabs-products
+	border: none
+	margin: 123px 0 0
+	color: #707070
+	font-size: 20px
+	.nav-item
+		margin: 0 94px 0 0
+		&:last-child
+			margin: 0
+	.nav-link
+		border: none
+		border-bottom: 1px solid transparent
+		border-radius: 0
+		padding: 0 0 34px
+		color: #707070
+		&.active
+			border-color: #000
+			color: #000000
+
+.tab-content-product
+	width: 100%
+	padding: 39px 0 0
+	ul
+		li
+			margin: 0 0 10px
+			&:last-child
+				margin: 0
+
+.watching
+	margin: 0 0 140px
+	h2
+		margin: 0 0 50px
+		font-size: 24px
+		font-weight: normal
+
+// page basket
+.page-basket
+	margin: 0 0 75px
+	h1
+		margin: 0 auto 50px
+
+.basket-line
+	width: 100%
+	position: relative
+	padding: 0 0 40px
+	margin: 0 0 40px
+	border-bottom: 1px solid #D8D8D8
+	display: flex
+	align-items: center
+	flex-wrap: wrap
+	&:last-child
+		margin: 0
+	&__close
+		position: absolute
+		right: 0
+		top: 0
+		@include d-flex
+		width: 12px
+		height: 12px
+		stroke: #000000
+		cursor: pointer
+	&__image
+		@include d-flex
+		width: 136px
+		height: 136px
+		background: #F7F8FC
+		border-radius: 4px
+		padding: 35px 22px
+		img
+			max-height: 100%
+	&__body
+		width: calc(100% - 102px - 187px - 136px)
+		padding: 0 30px
+	&__title
+		color: #000000
+		margin: 0 0 15px
+		font-size: 20px
+		font-weight: normal
+		&:hover
+			color: $accent
+	.price
+		font-size: 16px
+		font-weight: 600
+	&__footer
+		width: 187px
+		padding: 0 0 0 30px
+		font-weight: 600
+		color: #2F4050
+	.sum
+		margin: 0 0 15px
+		font-size: 20px
+
+.basket-total
+	width: 100%
+	h3
+		font-weight: 600
+	&__head
+		width: 100%
+		padding: 0 0 13px
+		border-bottom: 0.8px solid #84BABE
+	.btn
+		width: 100%
+		height: 38px
+		font-size: 14px
+		font-weight: normal
+	&__body
+		padding: 15px 0
+	&__footer
+		padding: 20px 0 0
+		border-top: 0.8px solid #84BABE
+
+.total-line
+	margin: 0 0 20px
+	display: flex
+	align-items: center
+	justify-content: space-between
+	font-weight: 600
+
+.list-basket
+	line-height: 22px
+	li
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+		margin: 0 0 10px
+		&:last-child
+			margin: 0
+		p
+			max-width: 145px
+			margin: 0 auto 0 0
+
+// page checkout
+.page-checkout
+	margin: 0 0 170px
+	h1
+		margin: 0 auto 100px
+
+.form-checkout
+	h3
+		width: 100%
+		font-size: 26px
+		color: #000
+		margin: 0 0 30px
+	label
+		position: relative
+		margin: 0 0 37px
+		&:last-child
+			margin: 0
+		input
+			height: 39px
+			padding: 12px 0 0
+			border-radius: 0
+			border-bottom: 1px solid #D8D8D8
+			color: #000
+		&.focus
+			.input-text
+				font-size: 10px
+
+	.label-radio
+		margin: 0
+	[type="submit"]
+		width: 100%
+		margin: 40px 0 0
+		height: 53px
+		font-size: 16px
+		font-weight: bold
+
+.input-text
+	position: absolute
+	color: #707070
+	font-size: 16px
+	left: 0
+	top: 0
+	transition: .3s ease
+	sup
+		color: #CF5555
+		font-size: 11px
+		margin: 0 0 0 5px
+
+.checkout-total
+	width: 100%
+	padding: 40px 59px
+	background: #EFEFEF
+	&__head
+		padding: 0 0 18px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		border-bottom: 1px solid #D8D8D8
+		color: #000
+	&__body
+		padding: 20px 0
+		color: #707070
+	&__footer
+		border-top: 1px solid #D8D8D8
+		padding: 20px 0 0
+
+.list-products
+	width: 100%
+	li
+		width: 100%
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		margin: 0 0 30px
+		&:last-child
+			margin: 0
+		span
+			text-align: right
+			font-family: 'DM Sans', sans-serif
+
+.label-radio-wrapper
+	width: 100%
+	margin: 0 0 20px
+	&:last-child
+		margin: 0

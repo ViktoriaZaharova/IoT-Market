@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IoT Market</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jQuery.countdownTimer.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex flex-wrap align-items-center">
+					<a href="#" class="logo">
+						<img src="img/logo-icon.svg" alt="">
+						<span class="logo-text">IoT Market</span>
+					</a>
+
+					<nav class="nav-menu">
+						<div class="nav-menu__close"></div>
+						<ul class="menu my-ul">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Каталог
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">Электросчётчики</a></li>
+									<li><a class="dropdown-item" href="#">Водосчётчики</a></li>
+									<li><a class="dropdown-item" href="#">Газосчётчики</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">О нас</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Доставка</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#footer">Контакты</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Опт</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="search-wrapper">
+						<a href="#" class="btn-search btn-link">
+							<svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#search"></use>
+							</svg>
+						</a>
+					</div>
+
+					<a href="#" class="btn-user btn-link">
+						<svg class="svg-icon">
+							<use xlink:href="img/sprite.svg#user"></use>
+						</svg>
+					</a>
+
+					<a href="basket.html" class="btn-basket btn-link">
+						<svg class="svg-icon">
+							<use xlink:href="img/sprite.svg#basket"></use>
+						</svg>
+						<span class="btn-basket__val">4</span>
+					</a>
+
+					<div class="btn-burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="page page-basket">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav aria-label="breadcrumb" class="nav-breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Корзина</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1>Корзина</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<div class="basket-line">
+						<a href="product.html" class="basket-line__image"><img src="img/product1.png" alt=""></a>
+						<div class="basket-line__body">
+							<a href="product.html" class="basket-line__title">Счетчик воды СВК-15-3-2</a>
+							<div class="price">4 000 руб./шт</div>
+						</div>
+						<div class="amount">
+							<span class="down">-</span>
+							<input type="text" value="1" />
+							<span class="up">+</span>
+						</div>
+						<div class="basket-line__footer">
+							<div class="sum">12 000 руб.</div>
+							<div class="quantity">3 шт</div>
+						</div>
+						<a href="#" class="basket-line__close"><svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#close"></use>
+							</svg></a>
+					</div>
+					<div class="basket-line">
+						<a href="product.html" class="basket-line__image"><img src="img/product1.png" alt=""></a>
+						<div class="basket-line__body">
+							<a href="product.html" class="basket-line__title">Счетчик воды СВК-15-3-2</a>
+							<div class="price">4 000 руб./шт</div>
+						</div>
+						<div class="amount">
+							<span class="down">-</span>
+							<input type="text" value="1" />
+							<span class="up">+</span>
+						</div>
+						<div class="basket-line__footer">
+							<div class="sum">12 000 руб.</div>
+							<div class="quantity">3 шт</div>
+						</div>
+						<a href="#" class="basket-line__close"><svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#close"></use>
+							</svg></a>
+					</div>
+					<div class="basket-line">
+						<a href="product.html" class="basket-line__image"><img src="img/product1.png" alt=""></a>
+						<div class="basket-line__body">
+							<a href="product.html" class="basket-line__title">Счетчик воды СВК-15-3-2</a>
+							<div class="price">4 000 руб./шт</div>
+						</div>
+						<div class="amount">
+							<span class="down">-</span>
+							<input type="text" value="1" />
+							<span class="up">+</span>
+						</div>
+						<div class="basket-line__footer">
+							<div class="sum">12 000 руб.</div>
+							<div class="quantity">3 шт</div>
+						</div>
+						<a href="#" class="basket-line__close"><svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#close"></use>
+							</svg></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3 offset-lg-1">
+					<div class="basket-total">
+						<div class="basket-total__head">
+							<h3>Ваша корзина</h3>
+						</div>
+						<div class="basket-total__body">
+							<ul class="list-basket my-ul">
+								<li>
+									<p>Товаров на:</p>
+									<span>36 000 руб.</span>
+								</li>
+								<li>
+									<p>НДС (20%, включен в цену)</p>
+									<span>10 000 руб.</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basket-total__footer">
+							<div class="total-line">
+								<p>Итого:</p>
+								<span>36 000 руб.</span>
+							</div>
+							<a href="checkout.html" class="btn btn-sm btn-accent">Перейти к оформлению</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-top">
+						<div class="row">
+							<div class="col-12 col-lg-4">
+								<a href="#" class="logo">
+									<img src="img/logo-icon-footer.svg" alt="">
+									<span class="logo-text">IoT Market</span>
+								</a>
+								<div class="box-text">
+									<p>Quis nostrud exercitatin ullamc boris nisi ut aliquip ex ea commodo conse.
+									</p>
+								</div>
+
+								<form method="post" class="form-subscribe">
+									<label><input type="text" placeholder="Your email here" name="mail"></label>
+									<button>
+										<svg class="svg-icon">
+											<use xlink:href="img/sprite.svg#mail"></use>
+										</svg>
+									</button>
+								</form>
+							</div>
+
+							<div class="col-12 col-sm-4 col-lg-3">
+								<div class="footer-box">
+									<h3>Адрес</h3>
+									<div class="footer-box-item">
+										<div class="footer-box-item__icon"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#location"></use>
+											</svg>
+										</div>
+										<div class="footer-box-item__text">20, Awesome Road, New York, Usa 4D BS3</div>
+									</div>
+									<a href="tel:+1234567890" class="footer-box-item">
+										<span class="footer-box-item__icon"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#phone"></use>
+											</svg>
+										</span>
+										<span class="footer-box-item__text">+123 456 7890</span>
+									</a>
+									<a href="mailto:hello@ulina.com" class="footer-box-item mail-link">
+										<span class="footer-box-item__icon"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#mail"></use>
+											</svg>
+										</span>
+										<span class="footer-box-item__text">hello@ulina.com</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 col-sm-4 col-lg-2">
+								<div class="footer-box">
+									<h3>Полезные ссылки</h3>
+									<ul class="footer-menu my-ul">
+										<li><a href="#">Shop Cupon</a></li>
+										<li><a href="about.html">About Us</a></li>
+										<li><a href="#">Carrer</a></li>
+										<li><a href="#">Supports</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 col-lg-3">
+								<div class="footer-box">
+									<h3>Категории</h3>
+									<ul class="category-list footer-menu my-ul">
+										<li><a href="#">Men</a></li>
+										<li><a href="#">women</a></li>
+										<li><a href="#">Kids</a></li>
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Bags</a></li>
+										<li><a href="#">Jewellary</a></li>
+										<li><a href="#">Cloths</a></li>
+										<li><a href="#">Beauty Item</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<ul class="social-list my-ul">
+									<li><a href="#"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#fb"></use>
+											</svg></a></li>
+									<li><a href="#"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#instagram"></use>
+											</svg></a></li>
+									<li><a href="#"><svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#twitter"></use>
+											</svg></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer-bottom">
+						<div class="row align-items-center">
+							<div class="col-12 col-sm-6">
+								<div class="copyright">© IoT Market 2022</div>
+							</div>
+							<div class="col-12 col-sm-6">
+								<ul class="menu-documents my-ul">
+									<li><a href="#" target="_blank">Privacy policy</a></li>
+									<li><a href="#" target="_blank">Cookies</a></li>
+									<li><a href="#" target="_blank">Terms of service</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jQuery.countdownTimer.js"></script>
+	<!-- <script src="js/jQuery.countdownTimer-ru.js"></script> -->
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>
