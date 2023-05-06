@@ -1,7 +1,8 @@
 header {
   border-bottom: 0.8px solid #84BABE;
   padding: 33px 0 22px;
-  position: absolute;
+  position: fixed;
+  background: #fff;
   left: 0;
   top: 0;
   width: 100%;
@@ -9,6 +10,10 @@ header {
 }
 header .logo {
   margin: 0 80px 0 -255px;
+}
+
+.header {
+  background: #DEE9E9;
 }
 
 .logo {
@@ -22,6 +27,9 @@ header .logo {
   color: #2F4050;
   font-size: 30px;
   font-weight: bold;
+}
+.logo:hover {
+  color: #589195;
 }
 
 .logo-text {
@@ -86,7 +94,7 @@ header .logo {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -36px;
+  bottom: -30px;
   width: 0;
   height: 2px;
   -webkit-transition: 0.3s ease;
@@ -223,4 +231,15 @@ header .logo {
   height: 2px;
   border-radius: 2px;
   background: #589195;
+}
+
+.search-wrapper {
+  position: relative;
+}
+.search-wrapper .form-search {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 300px;
+  display: none;
 }

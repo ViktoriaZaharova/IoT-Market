@@ -87,7 +87,6 @@
 		margin: 0 0 30px
 
 	.page-blog, .page-article
-		padding: 140px 0 0
 		margin: 0 0 70px		
 
 	.page-article
@@ -114,6 +113,10 @@
 		overflow-y: auto
 		background: #fff
 		box-shadow: 0 0 10px rgba(#000, .3)	
+		display: none
+
+	.page
+		padding: 120px 0 0	
 
 	.page-catalog 
 		margin: 0 0 40px
@@ -383,6 +386,15 @@
 	.list-products li
 		margin: 0 0 10px	
 
+	.search-wrapper
+		position: initial
+		.form-search
+			top: 76px
+			width: 100%
+			input
+				padding: 0 15px
+			button
+				right: 15px	
 
 @media only screen and (max-width: 480px)
 	.nav-tabs-hits 
@@ -415,6 +427,10 @@
 			height: 100px
 			padding: 20px
 		&__body
-			width: calc(100% - 100px)			
+			width: calc(100% - 100px)		
+
+	.search-wrapper
+		.form-search
+			top: 67px			
 
 @media only screen and (max-width: 370px)

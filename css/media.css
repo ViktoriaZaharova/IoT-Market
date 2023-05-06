@@ -99,7 +99,6 @@
     margin: 0 0 30px;
   }
   .page-blog, .page-article {
-    padding: 140px 0 0;
     margin: 0 0 70px;
   }
   .page-article h1 {
@@ -127,6 +126,10 @@
     background: #fff;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  .page {
+    padding: 120px 0 0;
   }
   .page-catalog {
     margin: 0 0 40px;
@@ -421,6 +424,19 @@
   .list-products li {
     margin: 0 0 10px;
   }
+  .search-wrapper {
+    position: initial;
+  }
+  .search-wrapper .form-search {
+    top: 76px;
+    width: 100%;
+  }
+  .search-wrapper .form-search input {
+    padding: 0 15px;
+  }
+  .search-wrapper .form-search button {
+    right: 15px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .nav-tabs-hits .nav-item {
@@ -454,5 +470,8 @@
   }
   .basket-line__body {
     width: calc(100% - 100px);
+  }
+  .search-wrapper .form-search {
+    top: 67px;
   }
 }

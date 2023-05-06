@@ -3,13 +3,17 @@
 header
 	border-bottom: 0.8px solid #84BABE
 	padding: 33px 0 22px
-	position: absolute
+	position: fixed
+	background: #fff
 	left: 0
 	top: 0
 	width: 100%
 	z-index: 10
 	.logo
 		margin: 0 80px 0 -255px
+
+.header
+	background: #DEE9E9		
 
 .logo
 	display: flex
@@ -18,6 +22,8 @@ header
 	color: #2F4050
 	font-size: 30px
 	font-weight: bold
+	&:hover
+		color: $accent
 
 .logo-text
 	margin: 0 0 0 7px
@@ -65,7 +71,7 @@ header
 			content: ''
 			position: absolute
 			left: 0
-			bottom: -36px
+			bottom: -30px
 			width: 0
 			height: 2px
 			transition: .3s ease
@@ -158,3 +164,13 @@ header
 		height: 2px
 		border-radius: 2px		
 		background: $accent
+
+.search-wrapper
+	position: relative
+	.form-search
+		position: absolute
+		right: 0
+		top: -5px
+		width: 300px
+		display: none
+

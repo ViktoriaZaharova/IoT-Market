@@ -70,6 +70,12 @@
 								<use xlink:href="img/sprite.svg#search"></use>
 							</svg>
 						</a>
+						<form method="post" class="form-search">
+							<label>
+								<input type="text" placeholder="Поиск..." name="search">
+							</label>
+							<button type="submit"><img src="img/search.svg" alt=""></button>
+						</form>
 					</div>
 
 					<a href="#" class="btn-user btn-link">
@@ -129,8 +135,7 @@
 										Цена
 									</button>
 								</div>
-								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-									data-bs-parent="#accordionExample">
+								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
 									<div class="accordion-body">
 										<div class="range_val">
 												<input type="text" name="dec" class="dec1">
@@ -146,13 +151,12 @@
 							</div>
 							<div class="accordion-item">
 								<div class="accordion-header" id="headingTwo">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
 										aria-expanded="false" aria-controls="collapseTwo">
 										Производитель
 									</button>
 								</div>
-								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-									data-bs-parent="#accordionExample">
+								<div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
 									<div class="accordion-body">
 										<ul class="list-checkbox my-ul">
 											<li>
@@ -196,13 +200,12 @@
 							</div>
 							<div class="accordion-item">
 								<h2 class="accordion-header" id="headingThree">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
 										aria-expanded="false" aria-controls="collapseThree">
 										Интерфейс
 									</button>
 								</h2>
-								<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-									data-bs-parent="#accordionExample">
+								<div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
 									<div class="accordion-body">
 										<ul class="list-checkbox my-ul">
 											<li>
@@ -238,6 +241,27 @@
 													<input type="checkbox" name="checkbox" class="inp-check">
 													<span class="checkbox-custom"></span>
 													<span class="checkbox-text">СПб ЗИП</span>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox" name="checkbox" class="inp-check">
+													<span class="checkbox-custom"></span>
+													<span class="checkbox-text">LoRaWAN</span>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox" name="checkbox" class="inp-check">
+													<span class="checkbox-custom"></span>
+													<span class="checkbox-text">RS-485</span>
+												</label>
+											</li>
+											<li>
+												<label class="checkbox">
+													<input type="checkbox" name="checkbox" class="inp-check">
+													<span class="checkbox-custom"></span>
+													<span class="checkbox-text">RS-235</span>
 												</label>
 											</li>
 										</ul>

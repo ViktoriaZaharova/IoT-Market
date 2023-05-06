@@ -26,7 +26,7 @@
 
 <body>
 
-	<header>
+	<header class="header">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 d-flex flex-wrap align-items-center">
@@ -70,6 +70,12 @@
 								<use xlink:href="img/sprite.svg#search"></use>
 							</svg>
 						</a>
+						<form method="post" class="form-search">
+							<label>
+								<input type="text" placeholder="Поиск..." name="search">
+							</label>
+							<button type="submit"><img src="img/search.svg" alt=""></button>
+						</form>
 					</div>
 
 					<a href="#" class="btn-user btn-link">
